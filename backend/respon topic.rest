@@ -1,0 +1,24 @@
+### topics
+GET http://localhost:5000/topics/33
+
+###
+GET http://localhost:5000/topics/1/4
+
+###
+POST http://localhost:5000/topics/2
+Content-Type: application/json
+
+{
+    "idcourse": 2,
+    "name": "quis materi 100"
+}
+
+###
+PATCH  http://localhost:5000/topics/1/2
+
+{
+    "idcourse" : 9,
+    "name": "quis ga jadi"
+}
+###
+DELETE http://localhost:5000/topics/2/10

@@ -1,0 +1,12 @@
+GET http://localhost:5000/quis/1
+
+###
+GET http://localhost:5000/quis/1/1
+
+###
+POST http://localhost:5000/quis/1
+
+{
+    "idtopic": 1,
+    "name": "Quis 1"
+}
